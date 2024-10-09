@@ -1,5 +1,6 @@
 ﻿using Microsoft.VisualBasic;
 using System;
+using System.Text.RegularExpressions;
 
 namespace Text_Adventure
 {
@@ -33,29 +34,47 @@ namespace Text_Adventure
               
             //    TypeLine(output);
             //}
-            TypeLine("The World Of Paradox!\r\n", 50);
-            TypeLine("Name: UNKNOWN");
+               TypeLine("Welcome, Escape The  Paradox!\r\n", 75);
 
-            Console.Clear();
-            TypeLine("You awake in the Cold!,Stone, dark room. You feel dazed and are having a trouble time remembering where you are From The Past events\r\n");
-             TypeLine("which room would you like to go in?!!!!!\r\n");
-            
+              TypeLine("Name: it cannot be accessed right now \r\n");
 
             Console.ReadKey();
             Console.Clear();
-            TypeLine("You and have reached to what appears to be a handle of what it seems to be a doorr .");
-            TypeLine(" TURN IT BUT SOMETHING MIGHT HAPPEN, WHO KNOWSSS??? PRESS (ENTER) TO HOP IN");
+
+
+               TypeLine("You awaken in a stone cold room. your head is spinning and you feel dazed, as if you'd been drugged.  You do not remember your name or how old you are  \r\n");
+               TypeLine("You pick yourself up and infront of you, you blurrily see 5 rooms");
             Console.ReadKey();
             Console.Clear();
-            Console.WriteLine("======================================================================================");
-             Console.WriteLine("                               Entered                                               ");
-            Console.WriteLine("                        BIG FRIENDLY ROOM                                            ");
-            Console.WriteLine("====================================================================================");
+
+            TypeLine("which room would you like to go in?!!!!!\n");
+            TypeLine("BIG FRIENDLY ROOM \n");
+
+            TypeLine("UKNOWN\n");
+
+            TypeLine("THE BASEMENT OF FUN\n");
+
+            TypeLine("\"UKNOWN\n");
+
+            TypeLine("UKNOWN\n");
+            Console.ReadKey();
+            Console.Clear();
 
 
-            TypeLine(" +\r\n                \"You have Encountered a Man who Goes by the name of The Wise One. \"");
+            TypeLine("You have approached the door,");
+            TypeLine(" PRESS (ENTER) to HOP IN \n");
+            Console.ReadKey();
+            Console.Clear();
+                 Console.WriteLine("======================================================================================");
+                 Console.WriteLine(" =                              Entered                                               =");
+                 Console.WriteLine(" =                        BIG FRIENDLY ROOM                                           = ");
+                  Console.WriteLine("====================================================================================");
+            Console.ReadKey();
+            Console.Clear();
 
-            TypeLine("As you encounter the man you have options Of Attacking or an option of staying back and being trapped ");
+            TypeLine(" +\r\n                \"You have Encountered a Man who Goes by the name of The Wise One. \r\n");
+
+            TypeLine("\n \"As you encounter the man you have options Of Attacking or an option of staying back and being trapped \n ");
             
             Console.ReadKey(true);
             Console.Clear();
@@ -67,7 +86,7 @@ namespace Text_Adventure
             Console.ReadKey(true);
             Console.Clear();
             Console.WriteLine("==============================================================================================");
-            Console.WriteLine("                   Leo    ");
+            Console.WriteLine("       Name has been chosen as Leo    ");
             Console.WriteLine("===============================================================================================");
             Console.WriteLine("|                   (A)ttack  = 10                               (D)efend = 5             ");
             Console.WriteLine("                          (P)ower = 4                 (H)eals   = 500                 ");
@@ -76,15 +95,20 @@ namespace Text_Adventure
             //Encounter Generic 
              //Encounters        
             {
-                TypeLine("You THROW OPEN THE DOOOR!! you grab a  rusty shield That appears infront of you, while charging at the man who captured you");
-                TypeLine(" +\r\n \"He Turns... \"");
-                Console.ReadLine();
+                Console.WriteLine("  \n     Press (E)nter to Open the door  \n  ");
+                TypeLine("You open the door gently, in order to be as quiet as a ninja  so he wont catch you. ");
+                TypeLine("You are in need of a weapon so you vividly see a shield but as you go to grab it, while charging at the man who captured you");
+                TypeLine("  \"He Turns... \"");
+                TypeLine("");
+
                 Console.ReadKey(true);
                 Console.Clear();
-                TypeLine("COMBAT HAS BEEN ENCOUNTERED WITH THE MANNNN");
+                TypeLine("\nCOMBAT HAS BEEN ENCOUNTERED\n");
+                Console.ReadKey(true);
+                Console.Clear();
 
                 Console.WriteLine("===============================================================================================");
-                Console.WriteLine("|            Press (A) to attack         &          (D) Defend    ");
+                Console.WriteLine("|              Press (A) to attack          &                  (D) Defend                      ");
                 Console.WriteLine("==============================================================================================");
 
                 Console.ReadKey(true);
@@ -94,7 +118,7 @@ namespace Text_Adventure
                 Console.WriteLine("                          (P)ower = 4                 (H)eals   = 450           ");
                 Console.WriteLine("==============================================================================================");
                 Console.WriteLine("==============================================================================================");
-                Console.WriteLine("The Wise man Has attacked back dealing a total damage of = 50");
+                Console.WriteLine(" You have done damage to The Wise man your attack has been set  back dealing a total damage of = 50");
               
                 Console.ReadKey(true);
                 Console.Clear();
