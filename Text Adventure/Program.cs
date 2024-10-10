@@ -47,16 +47,16 @@ namespace Text_Adventure
             Console.ReadKey();
             Console.Clear();
 
-            TypeLine("which room would you like to go in?!!!!!\n");
-            TypeLine("BIG FRIENDLY ROOM \n");
+            Console.WriteLine("which room would you like to go in?!!!!!\n");
+            Console.WriteLine("BIG FRIENDLY ROOM \n");
 
-            TypeLine("UKNOWN\n");
+            Console.WriteLine("\"UKNOWN\n");
 
-            TypeLine("THE BASEMENT OF FUN\n");
+            Console.WriteLine("\"THE BASEMENT OF FUN\n");
 
-            TypeLine("\"UKNOWN\n");
+            Console.WriteLine("\"UKNOWN\n");
 
-            TypeLine("UKNOWN\n");
+            Console.WriteLine("\"UKNOWN\n");
             Console.ReadKey();
             Console.Clear();
 
@@ -72,9 +72,9 @@ namespace Text_Adventure
             Console.ReadKey();
             Console.Clear();
 
-            TypeLine(" +\r\n                \"You have Encountered a Man who Goes by the name of The Wise One. \r\n");
+            TypeLine(" +\r\n                \"                        You have Encountered a Max                     \r\n");
 
-            TypeLine("\n \"As you encounter the man you have options Of Attacking or an option of staying back and being trapped \n ");
+            TypeLine("\n \"You get stunned from the man,he is the one who trapped you the captor is seen with the \n ");
             
             Console.ReadKey(true);
             Console.Clear();
