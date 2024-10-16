@@ -29,8 +29,11 @@ namespace Text_Adventure
            
 
             string Answer = Console.ReadLine();
+            TypeLine("\"Hey Press Enter to BEGIN THE GAME, Yes It is not finished ;) \n");
+            Console.ReadKey();
+            Console.Clear();
 
-           TypeLine("\"Welcome, You were "+ " chosen to Escape The Paradox !\r\n", 90);
+            TypeLine("\"Welcome, You were "+ " chosen to Escape The Paradox !\r\n", 90);
 
             Console.WriteLine("\n");
             TypeLine("\"Out of 8 billion people you have been chosen to be our test subject. latest invention so welcome to the Room \r\n");
@@ -105,8 +108,7 @@ namespace Text_Adventure
             TypeLine("\"You have Encountered Documents, You realize the documents are about who you are as a person. You gained vivid memory \n");
             TypeLine("\" The memory of who you really are. \n");
 
-            Console.ReadKey(true);
-            Console.Clear();
+            
             Console.WriteLine("==========================================");
             Console.WriteLine("                Documents = TYPE          ");
             Console.WriteLine("===========================================");
@@ -121,16 +123,21 @@ namespace Text_Adventure
             static void Documents()
             {          
                 Console.WriteLine("==============================================================================================");
-                Console.WriteLine("      0010011 ");
+                Console.WriteLine("   Your name =   0010011 ");
                 Console.WriteLine("===============================================================================================");
                 Console.WriteLine("|                   (A)ttack  = 10                               (D)efend = 5             ");
                 Console.WriteLine("                          (P)ower = 4                 (H)eals   = 500                 ");
                 Console.WriteLine("==============================================================================================");
                 Console.WriteLine("==============================================================================================");
+
+                TypeLine("\"Press ENTER  for the next part \n");
+                Console.ReadKey();
+                Console.Clear();
+
             }
-       
+
             //Encounter Generic 
-             //Encounters        
+            //Encounters        
             {
                 TypeLine("\"You open the door gently,\n");
                 TypeLine("\"You are in need of a weapon, so you go and look around the for what you can find around you \n");
